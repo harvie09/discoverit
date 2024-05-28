@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Language</title>
+    <link rel="website icon" type="png" href="../img/3.png">
+    <link rel="stylesheet" href="../css/se.css">
+    <link rel="stylesheet" href="../css/languages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a><img src="../img/2.png" alt="logo"/>DiscoverIT</a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a>Programming Languages</a>
+                    <ul class="dropdown">
+                        <li><a href="c.html">C</a></li>
+                        <li><a href="c++.html">C++</a></li>
+                        <li><a href="java.html">Java</a></li>
+                    </ul>
+                </li>
+                <li><a href="../exercises/exer.html">Exercises</a></li>
+                <li><a href="../other.html">Others</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <br>
+
+    <section>
+        <p class="clan">C++ Language</p>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson1')" class="lesson">Lesson 1</h1>
+        <div id="lesson1" style="display: none;">
+            <div>
+                <h1>History of C++</h1>
+                <p class="content">
+                    The C++ language is an object-oriented programming language & is a combination of both low-level & high-level language – a Middle-Level Language.
+                    <br><br>
+                    C++ was developed by Bjarne Stroustrup, starting in 1979 at Bell Labs (now known as Nokia Bell Labs). It evolved from the C programming language, with the intention of adding object-oriented programming features.
+                    <br><br>
+                    C++ was initially known as “C with classes, ” and was renamed C++ in 1983. ++ is shorthand for adding one to variety in programming; therefore C++ roughly means that “one higher than C.” 
+                </p>
+                <br>
+                <h1>Why Use C++ Language?</h1>
+                <p class="content">
+                    C++ is one of the world's most popular programming languages.
+                    <br><br>
+                    C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.
+                    <br><br>
+                    C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+                    <br><br>
+                    C++ is portable and can be used to develop applications that can be adapted to multiple platforms.
+                    <br><br>
+                    C++ is fun and easy to learn!
+                    <br><br>
+                    As C++ is close to C, C# and Java, it makes it easy for programmers to switch to C++ or vice versa.
+                </p>
+                <br>
+                <h1>Difference between C and C++</h1>
+                <p class="content">
+                    C++ was developed as an extension of C, and both languages have almost the same syntax.
+                    <br><br>
+                    The main difference between C and C++ is that C++ support classes and objects, while C does not.
+                </p>
+                <br><br>
+
+                <h1>Get Started with C++</h1>
+                <p class="content">
+                    To start using C++, you need two things:
+                    <br>
+                    1. A <a>text editor</a>, like Notepad, to write C++ code <br>
+                    2. A <a>compiler</a>, like GCC, to translate the C++ code into a language that the computer will understand
+                    <br>
+                    There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).
+                </p>
+
+                <h1>Install IDE</h1>
+                <p class="content">
+                        An IDE (Integrated Development Environment) is used to edit AND compile the code.
+                        <br><br>
+                        Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C++ code.
+                        <br><br>
+                        Note: Web-based IDE's can work as well, but functionality is limited.
+                        <br><br>
+                        We will use Code::Blocks in our tutorial, which we believe is a good place to start.
+                        <br><br>    
+                        You can find the latest version of Codeblocks at http://www.codeblocks.org/. Download the mingw-setup.exe file, which will install the text editor with a compiler.
+                </p>
+
+                <h1>C++ Quickstart</h1>
+                <p class="content">
+                    Let's create our first C++ file.
+                    <br><br>
+                    Open Codeblocks and go to File > New > Empty File.
+                    <br><br>
+                    Write the following C++ code and save the file as myfirstprogram.cpp (File > Save File as):
+                    <br><br>
+                </p>
+                
+                <div class="container">
+                    <h2>myfirstprogram.cpp</h1>
+                    <img src="../img/c++.PNG" >
+                </div>
+
+                <br><br>
+
+                <p class="content">
+                    Don't worry if you don't understand the code above - we will discuss it in detail in later. For now, focus on how to run the code.
+                    <br><br>
+                    In Codeblocks, it should look like this:
+                    <br><br>
+
+                    <img src="../img/codeblocks2020 (c++).png">
+                    <br><br>
+                    Then, go to <a>Build</a> > <a>Build and Run</a> to run (execute) the program. The result will look something to this:
+                </p>
+
+                <br>
+
+                <div class="container">
+                    <img src="../img/c++1.PNG" >
+                </div>
+                <br><br>
+                <p class="content">
+                    Congratulations! You have now written and executed your first C++ program.
+                </p>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson2')" class="lesson">Lesson 2</h1>
+        <div id="lesson2" style="display: none;">
+            <div>
+                <h1>C++ Program Structure</h1>
+                <p class="content">
+                    Let's break up the following code to understand it better:
+                </p>
+
+                <br>
+
+                <div class="container">
+                    <h2>Example</h1>
+                    <img src="../img/c++2.PNG" >
+                </div>
+
+                <br>
+
+                <p class="content">
+                    <a>Line 1:</a> #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
+                    <br><br>
+                    <a>Line 2:</a> using namespace std means that we can use names for objects and variables from the standard library.
+                    <br><br>    
+                    <a>Line 3:</a> A blank line. C++ ignores white space. But we use it to make the code more readable.
+                    <br><br>    
+                    <a>Line 4:</a> Another thing that always appear in a C++ program is int main(). This is called a function. Any code inside its curly brackets {} will be executed.
+                    <br><br>    
+                    <a>Line 5:</a> cout (pronounced "see-out") is an object used together with the insertion operator (<<) to output/print text. In our example, it will output "Hello World!".
+                    <br><br>    
+                    <a>Note: Every C++ statement ends with a semicolon ;.</a>
+                    <br><br>    
+                    <a>Note: The body of int main() could also been written as:
+                    int main () { cout << "Hello World! "; return 0; }</a>
+                    <br><br>    
+                    <a>Remember: The compiler ignores white spaces. However, multiple lines makes the code more readable.</a>
+                    <br><br>    
+                    <a>Line 6:</a> return 0 ends the main function.
+                    <br><br>    
+                    <a>Line 7:</a> Do not forget to add the closing curly bracket } to actually end the main function.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson3')" class="lesson">Lesson 3</h1>
+        <div id="lesson3" style="display: none;">
+            <div>
+                <h1>C++ Output</h1>
+                <p class="content">
+                    The cout object, together with the << operator, is used to output values/print text:
+                </p>
+
+                <br><br>
+
+                <div class="container">
+                    <h2>Example</h1>
+                    <img src="../img/c++3.PNG" >
+                </div>
+
+                <br><br>
+
+                <p class="content">
+                    You can add as many cout objects as you want. However, note that it does not insert a new line at the end of the output:
+                </p>
+
+                <br><br>
+
+                <div class="container">
+                    <h2>Example</h1>
+                    <img src="../img/c++4.PNG" >
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

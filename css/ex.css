@@ -1,0 +1,135 @@
+
+h1 {
+    font-size: 50px;
+    padding: 3rem;
+    text-align: center;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+.head {
+    background-color: darkblue;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 2rem;
+    border-radius: 80px;
+    transition: ease-out .4s;
+    font-family: "MuseoModerno", sans-serif;
+    color: #fff;
+}
+
+.head:hover {
+    background: linear-gradient(45deg, #9700C8, #AD02E4, #B900F4, #9504F4, #0904F4, #0449F4);
+    cursor: pointer;
+    transition: .4s;
+    color: black;
+}
+
+.content {
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.content a {
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.btn {
+    background-color: darkblue;
+    margin-right: 77%;
+    padding: 1rem;
+    border-radius: 40px;
+    color: antiquewhite;
+    transition: ease-out .3s;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #9700C8, #AD02E4, #B900F4, #9504F4, #0904F4, #0449F4);
+    cursor: pointer;
+    color: black;
+    transition: .3s;
+}
+
+.container {
+    background-color:darkblue;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 10px;
+}
+
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .head {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .btn {
+        margin-right: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    .head {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .btn {
+        margin-right: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .head {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .btn {
+        margin-right: 50%;
+    }
+
+    .content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .head {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .btn {
+        margin-right: 40%;
+    }
+
+    .content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        margin-right: 30%;
+    }
+}

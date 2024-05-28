@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="website icon" type="png" href="../img/3.png">
+    <link rel="stylesheet" href="../css/se.css">
+    <link rel="stylesheet" href="../css/languages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a><img src="../img/2.png" alt="logo"/>DiscoverIT</a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a>Programming Languages</a>
+                    <ul class="dropdown">
+                        <li><a href="c.html">C</a></li>
+                        <li><a href="c++.html">C++</a></li>
+                        <li><a href="java.html">Java</a></li>
+                    </ul>
+                </li>
+                <li><a href="../exercises/exer.html">Exercises</a></li>
+                <li><a href="../other.html">Others</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <br>
+
+    <section>
+        <p class="clan">Java Language</p>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson1')" class="lesson">Lesson 1</h1>
+        <div id="lesson1" style="display: none;">
+            <div>
+                <h1>What is Java?</h1>
+                <p class="content">
+                    A <a>full-fledged programming language</a> in which you can accomplish the same sorts of tasks and solve the same sorts of problems that you can do in other programming languages.
+                </p>
+                <br><br>
+                <h1>History of Java</h1>
+                <p class="content">
+                    It was originally developed by <a>Sun Microsystems</a>.
+                    <a>James Gosling</a> initiated Java language project in June 1991 for the use in one of his many setup box projects.
+                </p>
+                <br>
+                <p class="content">
+                    Sun released the first public implementation as Java 1.0 in 1995 as <a>Write Once, Run Anywhere(WORA).</a> 
+                    From <a>GreenTalk</a> as a .gt file it was revised to <a>Oak</a>.
+                </p>
+                <br>
+                <p class="content">
+                    Oak was <a>renamed as "Java"</a> because it was already a trademark by Oak Technologies.
+                </p>
+                <br>
+                <p class="content">
+                    On November 13, 2006, Sun released much of Java as free and open-source software under the terms of the GNU General Public License (GPL).
+                </p>
+                <br>
+                <p class="content">
+                    On May 8, 2007, Sun finished the process, making all of Java's core code free and open-source.
+                </p>
+
+                <h1>Why Learn Java?</h1>
+                <p class="content">
+                    <a>Simple</a> - Java is designed to be easy to learn.
+                    <br>
+                    <a>Dynamic</a> - It is suitable for any programming task and allows us to build an application for everyone.
+                    <br>
+                    <a>In-demand</a> - It has remained one of the most in-demand programming languages in the world.
+                </p>
+
+                <h1>Characteristic of Java</h1>
+                <p class="content">
+                    <a>Simple</a> - Java removes several C/C++ features considered to be unsafe such as pointer arithmetic, struct, typedefs etc. and the need to free memory.
+                    <br><br>
+                    <a>Object-Oriented</a> - It enforces OOP design from the start.
+                    <br><br>
+                    <a>Robust</a> - Java works hard to check for problems at compile time and run time.
+                    <br><br>
+                    <a>Secure</a> - Bytecode verifies checks for illegal codes.
+                    <br><br>
+                    <a>Distributed</a> - Java has extensive TCP/IP capabilities that have built in, which allow easy access to information over a network.
+                    <br><br>
+                    <a>Portable</a> - Java implement other portability standards.
+                    <br><br>
+                    <a>Fast</a> - The Java interpreter can be relatively slow in executing but the JIT compilers can speed up.
+                    <br><br>
+                    <a>Multithreaded</a> - Java allows many simultaneous activities in one program via the Thread class.
+                </p>
+
+                <h1>Java Applications</h1>
+                <p class="content">
+                    Typically compiled to byte code (class file) that can run any Java Virtual Machine (JVM).
+                    <br>
+                    Some devices that are using Java:
+                    <br>
+                    1. Desktop Application such as acrobat reader, media play, antivirus, etc.
+                    <br>
+                    2. Web Applications
+                    <br>
+                    3. Enterprise Applications such as banking applications.
+                    <br>
+                    4. Mobile
+                    <br>
+                    5. Embedded System
+                    <br>
+                    6. Smart Card
+                    <br>
+                    7. Robotics
+                    <br>
+                    8. Games, etc.
+                </p>
+
+                <h1>Types of Java Application</h1>
+                <br>
+                <h3 class="content">
+                    1. Standalone Application
+                </h3>
+                <br>
+                <p class="content">
+                    Standalone applications are also known desktop applications or window-based applications. These are traditional software that we need to install on every machine.
+                </p>
+                <br><br>
+                <h3 class="content">
+                    2. Web Application
+                </h3>
+                <br>
+                <p class="content">
+                    An application that runs on the server side and creates a dynamic page is called a web application.
+                    <br>
+                    Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
+                </p>
+                <br><br>
+                <h3 class="content">
+                    3. Enterprise Application
+                </h3>
+                <br>
+                <p class="content">
+                    An application that is distributed in nature, such as banking applications, etc. is called enterprise application.
+                    <br><br>
+                    It has advantages of the high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.
+                </p>
+                <br><br>
+                <h3 class="content">
+                    4. Mobile Application
+                </h3>
+                <br>
+                <p class="content">
+                    An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.
+                </p>
+                <br><br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson2')" class="lesson">Lesson 2</h1>
+        <div id="lesson2" style="display: none;">
+            <div>
+                <h1>Install Java IDE</h1>
+                <p class="content">
+                    <a>Step 1:</a> Open your browser and type https://www.eclipse.org/.
+                    <br><br>
+                    <img src="../img/java.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Steo 2:</a> Click on Download button.
+                    <br><br>
+                    <img src="../img/java1.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 3:</a> Click on "Download 64 bit" button.
+                    <br><br>
+                    <img src="../img/java2.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 4:</a> Click on "Download" button. 
+                    <br><br>
+                    <img src="../img/java3.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 5:</a> Click on "Downloads" in Windows file explorer. Click on "eclipse-inst-win64.exe" file.
+                    <br><br>
+                    <img src="../img/java4.PNG">
+                    <br><br>
+                    Right after the installing, click on Run button. 
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 6:</a> Click on "Eclipse IDE for Java Developers"
+                    <br><br>
+                    <img src="../img/java5.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 7:</a> Click on "INSTALL" button. 
+                    <br><br>
+                    <img src="../img/java6.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 8:</a> Click on "LAUNCH" button. 
+                    <br><br>
+                    <img src="../img/java7.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 9:</a> Click on "Launch" button. 
+                    <br><br>
+                    <img src="../img/java8.PNG">
+                </p>
+                <br><br>
+
+                <h1>Java Quickstart</h1>
+                <p class="content">
+                    <a>Step 1:</a> Click on "Create a new Java project" link. 
+                    <br><br>
+                    <img src="../img/java9.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 2:</a> Create a new Java Project. Write project name. Click on "Finish button". 
+                    <br><br>
+                    <img src="../img/java10.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 3:</a> Create Java Package. Go to "src". Click on "New". Click on "Package". 
+                    <br><br>
+                    <img src="../img/java11.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 4:</a> Write name of the package. Click on Finish button. 
+                    <br><br>
+                    <img src="../img/java12.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 5:</a> Create a Java Class. Click on package you have created. Click on "New". Click on "Class". 
+                    <br><br>
+                    <img src="../img/java13.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 6:</a> Define Java Class. Write class name. Click on "public static void main (String[] args)" checkbox. Click on "Finish" button. 
+                    <br><br>
+                    <img src="../img/java14.PNG">
+                    <br><br>
+                    Helloword.java file will be created as shown below:
+                    <br><br>
+                    <img src="../img/java15.PNG">
+                </p>
+                <br>
+                <p class="content">
+                    <a>Step 7:</a> Click on "Run" button. 
+                    <br><br>
+                    <img src="../img/java16.PNG">
+                    <br><br>
+                    Output will be displayed as shown below.
+                    <br><br>
+                    <img src="../img/java17.PNG">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="lesson" onclick="toggleVisibility('lesson3')" class="lesson">Lesson 3</h1>
+        <div id="lesson3" style="display: none;">
+            <div>
+                <h1>Rules and Syntax</h1>
+                <p class="content">
+                    <a>1. Case Sensitivity</a> - Java is case sensitive, which means identifier Hello and hello would have different meaning in Java.
+                    <br>
+                    <a>2. Class Names</a> - For all class names the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case. 
+                    <br><br>
+                </p>
+                <h2 class="content">Pascal Naming Convention</h2>
+                <p class="content">
+                    ex: HelloWorld, GoodbyeWorld
+                </p>
+                <br>
+                <div class="container">
+                    <h2>Valid Class Names in Java</h1>
+                    <img src="../img/java19.PNG" >
+                </div>
+                <br>
+                <div class="container">
+                    <h2>Legal but unconventional and non recommended class names in Java</h1>
+                    <img src="../img/java20.PNG" >
+                </div>
+                <br>
+                <div class="container">
+                    <h2>Some illegal class names in Java</h1>
+                    <img src="../img/java21.PNG" >
+                </div>
+                <br><br>
+                <p class="content">
+                    <a>3. Program File Name</a> - Name of the program file should exactly match the class name. When saving the file, you shoould save it using the class name and append '.java' to the end of the name.
+                    <br><br>
+                    <h2 class="content">Example</h2> <br>
+                    <p class="content">
+                        -MyFirstJavaProgram (Class Name) <br>
+                        -MyFirstJavaProgram.java (File Name)
+                    </p>
+                </p>
+                <br><br>
+                <p class="content">
+                    <a>4. public static void main(String args[])</a> - Java program processing starts from the main() method which is a mandatory part of every Java program.
+                </p>
+                <br>
+                <p class="content">
+                    <a>5. Method Names</a> - All method names should start with a lower-case letter. If several words are used to form the name of the method, then each inner word's first letter should be in Upper case.
+                    <br><br>
+                </p>
+                <h2 class="content">Camel Naming Convention</h2>
+                <p class="content">
+                    ex: firstFunction, gradeCalculator
+                </p>
+                <br>
+                <p class="content">
+                    <a>6. Statements and Expressions in Java</a> - A statement is the simplest thing you can do in Java; a statement forms a single Java operation.
+                </p>
+                <br>
+                <div class="container">
+                    <img src="../img/java22.PNG" >
+                    <h2>Anatomy of a Java statement</h2>
+                </div>
+                <br>
+                <div class="container">
+                    <img src="../img/java23.PNG" >
+                    <h2>Parts of a typical class</h2>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
