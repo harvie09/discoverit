@@ -337,9 +337,8 @@ section form {
         width: 300px;
     }
 
-    .clan {
+    section .clan {
         font-size: 3rem;
-        padding: 1rem 2rem;
     }
 }
 

@@ -98,9 +98,15 @@ img {
     .content {
         margin-left: 1rem;
         margin-right: 1rem;
+        font-size: 16px;
     }
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    section h1 {
+        font-size: 2rem;
+        padding: 1rem;
     }
 }

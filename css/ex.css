@@ -109,7 +109,22 @@ h2 {
     .content {
         margin-left: 2rem;
         margin-right: 2rem;
+        font-size: 1.2rem;
     }
+
+    h1 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .container [
+        margin-left: 1rem;
+        margin-right: 1rem;
+    ]
 }
 
 @media (max-width: 576px) {
